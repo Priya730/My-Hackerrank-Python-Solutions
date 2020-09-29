@@ -1,8 +1,8 @@
-def swap_case(s):
+def swap_case(strings):
     
-    return s.swapcase()
+    return strings.swapcase()
 
 if __name__ == '__main__':
-    s = input()
-    result = swap_case(s)
+    strings = input()
+    result = swap_case(strings)
     print(result)
